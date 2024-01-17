@@ -1,0 +1,16 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "Hello World!",
+  "main": "main.js",
+  "author": "Bruno Silva",
+  "license": "MIT",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.2.0",
+    "electron": "^28.1.4"
+  },
+  "scripts": {
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  }
+}
